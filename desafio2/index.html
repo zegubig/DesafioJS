@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Desafio 02</title>
+</head>
+<body>
+    <header>
+        
+        <div id="cabecario">
+            <h1>ME ACHA!</h1>
+            <div>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</div>
+        </div>
+        <div id="icone">
+            <span class="material-symbols-outlined travel">
+                travel_explore
+            </span>
+        </div>
+    </header>
+    <main>
+        <div id="quadrado">
+            <div id="centro">
+                <label>CEP</label>
+                <input type="number" id="CEP" name="CEP" placeholder="Digite um CEP Válido." class="endereco" maxlength="8">
+
+                <label>RUA</label>
+                <input type="text" name="RUA" id="logradouro" class="endereco">
+
+                <label>BAIRRO</label>
+                <input type="text" name="BAIRRO" id="bairro" class="endereco">
+
+                <label>CIDADE</label>
+                <input type="text" name="CIDADE" id="localidade" class="endereco">
+
+                <label>ESTADO</label>
+                <input type="text" name="ESTADO" id="uf" class="endereco">
+
+                <input type="button" name="buscar" id="button" value="BUSCAR">
+                
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
